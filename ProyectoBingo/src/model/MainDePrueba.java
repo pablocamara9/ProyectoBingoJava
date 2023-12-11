@@ -9,6 +9,8 @@ public class MainDePrueba {
 		
 		Random rnd= new Random(System.nanoTime());
 		
+		int [] bombo = new int[90];
+		
 		int [][] arrPrueba = new int [9][3];
 		int desde = 1, hasta = 9;
 		
@@ -21,13 +23,21 @@ public class MainDePrueba {
 		
 		//Mostrar
 		for (int j = 0; j < arrPrueba.length; j++) {
-			//System.out.print("");
+			System.out.println("");
 			for (int i = 0; i < arrPrueba[j].length; i++) {
-				System.out.println(arrPrueba[j][i] + "\t");
+				System.out.println(arrPrueba[j][i]);
 			}
 			
 		}
 
+	}
+	
+	public static void llenarBombo(int [] bombo) {
+		Random rnd = new Random(System.nanoTime());
+		
+		for (int i = 0; i < bombo.length; i++) {
+			
+		}
 	}
 
 }
